@@ -17,11 +17,25 @@ public class Rectangle {
         return  2 * (length+width);
     }
 
+    @Override
+    public String toString() {
+        return "Rectangle{" +
+                "length=" + length +
+                ", width=" + width +
+                '}';
+    }
+
+
     public void getInfo(){
         System.out.println("width = " + width);
         System.out.println("length = " + length);
         System.out.println("Area = " + calculateArea());
         System.out.println("Perimeter = " + calculatePerimeter());
+
+
+
+
+
     }
 
 
