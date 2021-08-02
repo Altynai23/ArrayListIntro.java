@@ -20,8 +20,10 @@ public class Rectangle {
     @Override
     public String toString() {
         return "Rectangle{" +
-                "length=" + length +
-                ", width=" + width +
+                "length= " + length +
+                ", width= " + width +
+                ", area= "+calculateArea() +
+                ", perimeter= "+calculatePerimeter()+
                 '}';
     }
 
