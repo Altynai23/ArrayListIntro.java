@@ -1,5 +1,7 @@
 package day39_CustomClass_Statics.circleTask;
 
+import java.text.DecimalFormat;
+
 public class Circle {
 
     public double radius, diameter;
@@ -20,11 +22,12 @@ public class Circle {
 
     @Override
     public String toString() {
+        DecimalFormat df = new DecimalFormat("0.000");
         return "Circle{" +
                 "radius=" + radius +
                 ", diameter=" + diameter +
-                ", area=" + area() +
-                ", perimeter=" + perimeter() +
+                ", area=" + df.format(area() ) +
+                ", perimeter=" + df.format(perimeter() ) +
                 '}';
     }
 }
