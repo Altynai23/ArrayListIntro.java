@@ -1,4 +1,4 @@
-package day39_CustomClassStatics.carpetTask;
+package day39_CustomClass_Statics.carpetTask;
 
 import java.text.DecimalFormat;
 
