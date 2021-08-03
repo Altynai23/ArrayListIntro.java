@@ -1,4 +1,4 @@
-package day38_CustomClass.PizzaTask;
+package day38_CustomClass.pizzaTask;
 
 public class Pizza {
 

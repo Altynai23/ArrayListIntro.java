@@ -1,4 +1,4 @@
-package day38_CustomClass;
+package day38_CustomClass.rectangleTask;
 
 import java.util.Arrays;
 
