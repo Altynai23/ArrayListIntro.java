@@ -1,4 +1,6 @@
-package day39_CustomClassStatics.salaryCalculatorTask;
+package day39_CustomClass_Statics.salaryCalculatorTask;
+
+import java.text.DecimalFormat;
 
 public class SalaryCalculator {
 
@@ -9,8 +11,8 @@ public class SalaryCalculator {
 
     public void setInfo(double hourlyRate, double stateTaxRate, double federalTaxRate, double weeklyHours) {
         this.hourlyRate = hourlyRate;
-        this.stateTaxRate = stateTaxRate;
-        this.federalTaxRate = federalTaxRate;
+        this.stateTaxRate = stateTaxRate/100;
+        this.federalTaxRate = federalTaxRate/100;
         this.weeklyHours = weeklyHours;
     }
 
@@ -32,11 +34,12 @@ public class SalaryCalculator {
 
     @Override
     public String toString() {
+        DecimalFormat df = new DecimalFormat("0.00");
         return "SalaryCalculator{" +
-                "salary=" + salary() +
-                ", stateTax=" + stateTax() +
-                ", federalTax=" + federalTax() +
-                ", salaryAfterTax=" + salaryAfterTax() +
+                "salary=" + df.format(salary()) +
+                ", stateTax=" + df.format(stateTax() )+
+                ", federalTax=" + df.format(federalTax()) +
+                ", salaryAfterTax=" + df.format(salaryAfterTax()) +
                 '}';
     }
 
