@@ -6,6 +6,7 @@ public class Address {
     public int zipCode;
 
     public static String country = "USA";
+    public static String planetName = "Earth";
 
     public void setInfo(String buildingNumber, String street, String city, String state, int zipCode) {
         this.buildingNumber = buildingNumber;

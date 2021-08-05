@@ -8,6 +8,11 @@ public class AddressObjects {
         Address address = new Address();
         Scanner scan = new Scanner(System.in);
 
+        System.out.println(address.country);
+        System.out.println(address.planetName);
+        System.out.println(Address.country);
+        System.out.println(Address.planetName);
+
         System.out.println("Enter your building number");
         String building = scan.next(); //7925
 
