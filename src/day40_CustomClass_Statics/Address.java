@@ -19,7 +19,7 @@ public class Address {
     /*
     public void setInfo(){
         System.out.println(country);
-        System.out.println(buildingNumber);// instance method accepts static & non-static (object can share class)
+        System.out.println(buildingNumber);// instance method accepts static & non-static (object can share class members)
     }
 
     public static void setInfo2(){
@@ -29,12 +29,8 @@ public class Address {
      */
 
     public String toString(){
-        return buildingNumber+" "+street+"n"+city+" "+state+", "+zipCode;
+        return buildingNumber+" "+street+"/n"+city+" "+state+", "+zipCode;
     }
-
-
-
-
 
 
 }
