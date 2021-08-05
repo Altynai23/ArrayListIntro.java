@@ -9,6 +9,10 @@ public class Test {
 
         System.out.println( StaticBlocks.list);
 
+        System.out.println("----------------------------------");
 
+        ExecutionsOfStaticBlock.method1();
+        ExecutionsOfStaticBlock.method1();
+        ExecutionsOfStaticBlock.method1();
     }
 }
