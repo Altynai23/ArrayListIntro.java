@@ -1,4 +1,4 @@
-package day41_CustomClass_Constructor.CircleTask;
+package day41_CustomClass_Constructor.circleTask;
 
 public class Circle {
 

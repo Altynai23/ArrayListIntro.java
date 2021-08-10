@@ -1,22 +1,22 @@
-package day41_CustomClass_Constructor.ScrumTask;
+package day41_CustomClass_Constructor.scrumTask;
 
-public class Developer {
+public class Tester {
 
     public String name;
     public char gender;
     public String jobTitle;
     public int id;
-    public double salary;
+    public static double salary;
 
-    public static boolean isEmployeed ;
-    public static boolean hatesTaster ;
+    public static boolean isCybertekStudent;
+    public static boolean isEmployeed;
 
     static{
+        isCybertekStudent = true;
         isEmployeed = true;
-        hatesTaster = true;
     }
 
-    public Developer(String name, char gender, String jobTitle, int id, double salary) {
+    public Tester(String name, char gender, String jobTitle, int id, double salary) {
         this.name = name;
         this.gender = gender;
         this.jobTitle = jobTitle;
@@ -24,19 +24,21 @@ public class Developer {
         this.salary = salary;
     }
 
+    @Override
     public String toString() {
-        return "Developer{" +
+        return "Tester{" +
                 "name='" + name + '\'' +
                 ", gender=" + gender +
                 ", jobTitle='" + jobTitle + '\'' +
                 ", id=" + id +
-                ", salary=" + salary +
                 '}';
     }
 
-    public void fixingBugs(){
-        System.out.println(name+" is crying");
+    public void smokeTesting(){
+        System.out.println(name+" is smoke testing");
     }
+
+
 
 
 
