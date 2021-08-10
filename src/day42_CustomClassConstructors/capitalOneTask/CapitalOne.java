@@ -1,4 +1,4 @@
-package day42_CustomClassConstructors.CapitalOneTask;
+package day42_CustomClassConstructors.capitalOneTask;
 
 import day41_CustomClass_Constructor.scrumTask.Developer;
 import day41_CustomClass_Constructor.scrumTask.ScrumTeam;
