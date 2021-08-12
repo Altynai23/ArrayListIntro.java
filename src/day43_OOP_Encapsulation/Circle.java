@@ -1,7 +1,7 @@
 package day43_OOP_Encapsulation;
 
 public class Circle {
-    //               10        30
+    //                5       20
     private double radius, diameter;
 
     private static double PI = 3.14;
@@ -29,7 +29,7 @@ public class Circle {
             return;
         }
         this.diameter = diameter;
-        setDiameter(diameter/2);
+        radius = diameter/2;
     }
 
 
