@@ -8,7 +8,7 @@ public class SquareObject {
         System.out.println( squar1.getSide() );
 
         squar1.setSide(20);
-        
+
         System.out.println(squar1.getSide());
 
         Square squar2 = new Square( squar1.getSide() );
