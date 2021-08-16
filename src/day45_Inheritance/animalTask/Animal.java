@@ -29,8 +29,8 @@ public class Animal {
         System.out.println(name +" is drinking "+drink);
     }
 
-    public void sleep(String sleep){
-        System.out.println(name +" is sleeping "+sleep);
+    public void sleep(){
+        System.out.println(name +" is sleeping");
     }
 
     @Override
