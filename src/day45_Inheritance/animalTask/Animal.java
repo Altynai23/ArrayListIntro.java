@@ -45,6 +45,5 @@ public class Animal {
                 '}';
     }
 
-    public void sleep() {
-    }
+
 }
