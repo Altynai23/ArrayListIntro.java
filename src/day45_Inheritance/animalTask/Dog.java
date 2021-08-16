@@ -1,6 +1,7 @@
 package day45_Inheritance.animalTask;
 
-public class Dog extends Animal{
+public class Dog extends Animal{ // Dog Is An animal
+
     /*
 name, breed, gender, size, age, color, sleeps, breath
 setInfo(), eat(), drink(), sleep(), toString()
