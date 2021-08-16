@@ -1,6 +1,6 @@
 package day45_Inheritance.animalTask;
 
-public class Cat extends Animal {
+public class Cat extends Animal { // Cat Is An animal
 
     public Cat(String name, String breed, char gender, String size, int age, String color){
         setInfo(name, breed, gender, size, age, color);
