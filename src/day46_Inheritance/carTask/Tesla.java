@@ -12,6 +12,10 @@ public class Tesla extends Car{
         System.out.println(brand+" "+model+" is driving by itself");
     }
 
+    public void start(){
+        System.out.println("Push the start button");
+    }
+
 
 
 }
