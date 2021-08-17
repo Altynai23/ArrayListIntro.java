@@ -3,9 +3,9 @@ package day46_Inheritance.shapeTask;
 public class Circle extends Shape{ // Circle Is A shape
 
     public double radius, diameter;
-    public final double PI = 3.14;
+    public final static double PI = 3.14;
 
-    public Circle(String name, double radius, double diameter) {
+    public Circle(double radius) {
         super("Circle");
         setRadius(radius);
         setDiameter(radius * 2);
