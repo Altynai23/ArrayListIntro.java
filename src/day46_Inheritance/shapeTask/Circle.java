@@ -1,14 +1,14 @@
 package day46_Inheritance.shapeTask;
 
-public class Circle extends Shape{
+public class Circle extends Shape{ // Circle Is A shape
 
     public double radius, diameter;
     public final double PI = 3.14;
 
     public Circle(String name, double radius, double diameter) {
-        super(name);
-        this.radius = radius;
-        this.diameter = diameter;
+        super("Circle");
+        setRadius(radius);
+        setDiameter(radius * 2);
     }
 
     public double getRadius() {
@@ -35,7 +35,6 @@ public class Circle extends Shape{
         radius = diameter/2;
     }
 
-
     public double area() {
         return radius * radius * PI;
     }
@@ -45,6 +44,12 @@ public class Circle extends Shape{
         return diameter * PI;
     }
 
-
-
+    @Override
+    public String toString() {
+        return "Circle{" +
+                "radius=" + radius +
+                ", diameter=" + diameter +
+                super.toString()+
+                '}';
+    }
 }
