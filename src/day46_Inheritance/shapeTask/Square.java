@@ -27,4 +27,12 @@ public class Square extends Shape{
     public double perimeter() {
         return side * 4;
     }
+
+    @Override
+    public String toString() {
+        return "Square{" +
+                "side=" + side +
+                super.toString()+
+                '}';
+    }
 }
