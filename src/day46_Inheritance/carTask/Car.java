@@ -18,7 +18,8 @@ public class Car {
     }
 
     public void start(){
-        System.out.println(brand+" "+model+" is starting");
+        System.out.println("Insert the key");
+        System.out.println("Twist it to the ignition");
     }
 
     public void drive(){
