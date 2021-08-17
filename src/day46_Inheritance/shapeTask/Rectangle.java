@@ -4,10 +4,10 @@ public class Rectangle extends Shape{
         //          10      20
     public double length, width;
 
-    public Rectangle(String name, double length, double width) {
-        super(name);
-        this.length = length;
-        this.width = width;
+    public Rectangle(double length, double width) {
+        super("Rectangle");
+        setLength(length);
+        setWidth(width);
     }
 
     public double getLength() {
@@ -40,9 +40,12 @@ public class Rectangle extends Shape{
         return (length+width) * 2;
     }
 
-
-
-
-
-
+    @Override
+    public String toString() {
+        return "Rectangle{" +
+                "length=" + length +
+                ", width=" + width +
+                super.toString()+
+                '}';
+    }
 }
