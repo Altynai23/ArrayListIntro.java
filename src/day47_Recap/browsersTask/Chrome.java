@@ -11,11 +11,13 @@ public final class Chrome extends Browser{ // Chrome Is A browser
     }
     */
 
+    @Override
+    public void open() {
+        System.out.println("Opening Chrome browser");
+    }
 
-
-
-
-
-
-
+    @Override
+    public void close() {
+        System.out.println("Closing Chrome browser");
+    }
 }
