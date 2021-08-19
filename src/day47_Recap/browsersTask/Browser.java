@@ -3,11 +3,11 @@ package day47_Recap.browsersTask;
 public class Browser {
 
     public void open(){
-        System.out.println("Opening ChromeBrowser");
+        System.out.println();
     }
 
     public void close(){
-        System.out.println("Closing Chrome Browser");
+        System.out.println();
     }
 
     public final void navigate(String url){
